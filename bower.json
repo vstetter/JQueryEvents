@@ -1,0 +1,23 @@
+{
+  "name": "JQueryEvents",
+  "version": "0.0.0",
+  "authors": [
+    "Veronika <vstetter@hotmail.com>"
+  ],
+  "description": "10 events with JQuery",
+  "main": "index.html",
+  "keywords": [
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
