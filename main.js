@@ -16,14 +16,16 @@ $("h1").on("click", function(event) {
 });
 
 
-//want to show span when user clicks submit (works in "input" below when submit commented out)
-$("p").submit(function(event){
-  $(this).next("span").fadeIn(10000);
-});
+$("form").submit(function(event){
+    event.preventDefault();
+   console.log("submit is working");
+   $(this).next().fadeIn(10000);
+   console.log(event.target);
+ });
 
 
 $("input").focus (function(){
-  //  $(this).next("span").fadeIn(10000);
+  $(this).toggleClass("inputBackground");
 });
 
 
